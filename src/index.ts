@@ -6,3 +6,4 @@ export * from "./combineAll";
 export * from "./utils";
 export * from "./forkJoin";
 export * from "./concatAll";
+export * from "./expand";

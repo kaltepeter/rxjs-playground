@@ -34,3 +34,13 @@ export interface Post {
   title: string;
   body: string;
 }
+
+export interface Photo {}
+
+export interface Album {
+  id: number;
+  albumId: number;
+  title: string;
+  url: string;
+  thumbnailUrl: string;
+}

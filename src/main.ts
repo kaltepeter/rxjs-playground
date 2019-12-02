@@ -10,7 +10,8 @@ import {
   combineAll$,
   handleGroup,
   forkJoin$,
-  concatAll$
+  concatAll$,
+  expand$
 } from "./index";
 
 userFlatMap$.pipe(handleGroup("userFlatMap$")).subscribe();
@@ -21,3 +22,4 @@ toArray$.pipe(handleGroup("toArray$")).subscribe();
 combineAll$.pipe(handleGroup("combineAll$")).subscribe();
 forkJoin$.pipe(handleGroup("forkJoin$")).subscribe();
 concatAll$.pipe(handleGroup("concatAll$")).subscribe();
+expand$.pipe(handleGroup("expand$")).subscribe();
